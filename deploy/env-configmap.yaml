@@ -1,0 +1,8 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: udagram-api-config
+data:
+  AWS_REGION: "us-east-2"  
+  AWS_BUCKET: "udagram37-482992438823"
+  URL: "http://localhost:8100"

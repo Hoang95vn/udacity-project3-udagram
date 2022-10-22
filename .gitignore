@@ -1,7 +1,8 @@
 # Specifies intentionally untracked files to ignore when using Git
 # http://git-scm.com/docs/gitignore
 
-
+aws-secret.yaml
+env-secret.yaml
 set_env.sh
 set_env copy.sh
 package-lock.json.0
@@ -16,6 +17,7 @@ log.txt
 .vscode/
 npm-debug.log*
 
+tmp.md
 .idea/
 .ionic/
 .sourcemaps/

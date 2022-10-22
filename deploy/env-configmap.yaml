@@ -1,8 +1,12 @@
 apiVersion: v1
 kind: ConfigMap
 metadata:
-  name: udagram-api-config
+  name: udagramdb-config
 data:
-  AWS_REGION: "us-east-2"  
-  AWS_BUCKET: "udagram37-482992438823"
-  URL: "http://localhost:8100"
+  POSTGRES_HOST: hoangnth-udagram-db.ccf6xwjjtoys.us-east-1.rds.amazonaws.com
+  POSTGRES_DB: postgres
+  AWS_BUCKET: hoangnth-udagram-bucket
+  AWS_REGION: us-east-1
+  AWS_PROFILE: default
+  JWT_SECRET: hello
+  URL: http://localhost:8100
